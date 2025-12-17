@@ -3,7 +3,7 @@
 
 # Set the Ollama model to use (default: llama3.2)
 # Options: llama3.2, codellama, llama3.1, mistral, etc.
-export QQ_MODEL=codellama:latest
+export QQ_MODEL=devstral-2-small
 
 # Examples of other models you might want to try:
 # export QQ_MODEL=codellama    # Better for code-related queries

@@ -57,7 +57,7 @@ find . -maxdepth 1 -type f -exec head -n 1 {} \;
 By default, `qq` uses the `devstral-2-small` model. To use a different model, set the `QQ_MODEL` environment variable:
 
 ```bash
-export QQ_MODEL=codellama  # Add to your ~/.bashrc or ~/.zshrc
+export QQ_MODEL=codellama  # If you want to use the `codellama` model, add this to your ~/.bashrc or ~/.zshrc
 ```
 
 ### Recommended Ollama Models

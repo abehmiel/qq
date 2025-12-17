@@ -47,7 +47,7 @@ import sys
 prompt = sys.stdin.read()
 
 payload = {
-    'model': '${QQ_MODEL:-llama3.2}',
+    'model': '${QQ_MODEL:-devstral-2-small}',
     'prompt': prompt,
     'stream': False
 }
