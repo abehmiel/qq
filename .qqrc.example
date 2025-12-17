@@ -1,0 +1,11 @@
+# qq Configuration Example
+# Copy this file to your home directory or add these exports to your shell RC file
+
+# Set the Ollama model to use (default: llama3.2)
+# Options: llama3.2, codellama, llama3.1, mistral, etc.
+export QQ_MODEL=codellama:latest
+
+# Examples of other models you might want to try:
+# export QQ_MODEL=codellama    # Better for code-related queries
+# export QQ_MODEL=llama3.1     # Larger, more capable model
+# export QQ_MODEL=mistral      # Fast alternative

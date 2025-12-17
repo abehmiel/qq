@@ -1,0 +1,15 @@
+# User-specific configuration
+.qqrc
+
+# macOS
+.DS_Store
+
+# Editor directories and files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
